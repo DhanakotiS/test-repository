@@ -1,0 +1,21 @@
+{
+    "muthumani stores": {
+        "grocery": [
+            "arisi",
+            "paruppu",
+            "godhumai",
+            "sakkarai",
+            "uppu"
+        ],
+        "oils": [
+            "sunflower",
+            "nallennai",
+            "kallennai",
+            "kadalennai",
+            "velakennai"
+        ],
+        "address": "135, manikkam compound, valluvar theru, kottayam",
+        "opens":"07.00",
+        "closes":"22.00"
+    }
+}
