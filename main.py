@@ -5,8 +5,13 @@ def main():
     with open('data.json', 'r') as f:
         data = json.load(f)
         groceries = data.get(store)["grocery"]
+        print("Grocery Items:\n")
         for item in groceries:
             print(item.capitalize())
+        oils = data.get(store)["oils"]
+        print("\nOils:\n")
+        for oil in oils:
+            print(oil.capitalize())
 
 
 
