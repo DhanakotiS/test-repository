@@ -15,7 +15,14 @@
             "velakennai"
         ],
         "address": "135, manikkam compound, valluvar theru, kottayam",
-        "opens":"07.00",
-        "closes":"22.00"
+        "opens": "07.00",
+        "closes": "22.00",
+        "groc_list": [
+            "vellam",
+            "melagu",
+            "kal uppu",
+            "naatu sakkarai",
+            "sevvarisi"
+        ]
     }
 }

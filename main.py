@@ -1,7 +1,9 @@
 import json
+from update import update_json
 
 store="muthumani stores"
 def main():
+    update_json()
     with open('data.json', 'r') as f:
         data = json.load(f)
         groceries = data.get(store)["grocery"]
