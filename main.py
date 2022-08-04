@@ -16,9 +16,9 @@ def main():
             print(oil.capitalize())
         address = data.get(store)["address"]
         storetimimg ="From {}- to {}".format( data.get(store)["opens"], data.get(store)["closes"])
-        print("Address of the Store:", address)
-        print("Store Open and Closing Timimg:", storetimimg)
-        print("Danke for visiting us")
+        print("Address of Store:", address)
+        print("Open and Closing Timimg:", storetimimg)
+        print("Danke")
 
 
 
