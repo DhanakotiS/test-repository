@@ -12,6 +12,11 @@ def main():
         print("\nOils:\n")
         for oil in oils:
             print(oil.capitalize())
+        print()
+        address = data.get(store)["address"]
+        storetimimg ="{}-{}".format( data.get(store)["opens"], data.get(store)["closes"])
+        print("Address:", address)
+        print("Store Timimg:", storetimimg)
 
 
 
