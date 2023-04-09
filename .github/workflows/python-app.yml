@@ -35,5 +35,12 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Build with PyInstaller
       run: |
-        pyinstaller --onefile -n output/grocery main.py
+        pyinstaller --onefile -n grocery main.py
+    - name: Download Build File
+      run: |
+        mkdir ../output
+        cp /home/runner/work/test-repository/test-repository/dist/grocery ../output/grocery
+        git add .
+        git commit -m "Test Output"
+        git push
 
