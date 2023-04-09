@@ -40,6 +40,8 @@ jobs:
       run: |
         mkdir ../output
         cp /home/runner/work/test-repository/test-repository/dist/grocery ../output/grocery
+        git config user.email "dhanakotiroxx@gmail.com"
+        git config user.name "DhanakotiS"
         git add .
         git commit -m "Test Output"
         git push
