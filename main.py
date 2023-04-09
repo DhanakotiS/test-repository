@@ -17,6 +17,7 @@ def main():
         storetimimg ="From {}- to {}".format( data.get(store)["opens"], data.get(store)["closes"])
         print("Address:", address)
         print("Store Timimg:", storetimimg)
+        print("End")
 
 
 
